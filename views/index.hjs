@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ title }}</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>{{ title }}</h1>
+  <p>Welcome to {{ title }} Page! </p>
+  <form id="resetForm" action="/form" method="POST">
+    <label>Name:</label><br />
+    <input style="height: 30px; width: 250px;" type="text" name="username" />
+    <p />
+    <label>Email Address: </label><br />
+    <input style="height: 30px; width: 250px;" type="email" name='emailaddress' id="emailField" required>
+    <p />
+    <button
+      style="font-size: 14px; vertical-align: top; color: white; background-color: rgb(7, 88, 180);border-radius: 5px; text-align: center; height: 40px; width: 250px;"
+      type='submit' id="submitButton" disabled>SEND A REQUEST</button>
+  </form>
+  <script>
+    const resetForm = document.getElementById('resetForm');
+    const emailField = document.getElementById('emailField');
+    const submitButton = document.getElementById('submitButton');
+
+    emailField.addEventListener('keyup', function (event) {
+      isValidEmail = emailField.checkValidity();
+
+      if (isValidEmail) {
+        submitButton.disabled = false;
+      } else {
+        submitButton.disabled = true;
+      }
+    });
+
+    submitButton.addEventListener('click', function (event) {
+      resetForm.submit();
+    });
+  </script>
+
+</body>
+
+</html>

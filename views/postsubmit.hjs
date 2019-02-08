@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1> Hi {{ firstName }} </h1>
+  <p> You sent a request for reset password. Please, check your {{ email }} ! Thank you </p>
+
+
+
+</body>
+
+</html>

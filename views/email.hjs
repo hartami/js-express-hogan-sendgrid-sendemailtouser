@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+      color: black;
+      font-size: 12px
+    }
+
+    button {
+      width: 100%;
+      height: 50px;
+      box-shadow: 0px 0px;
+      border-radius: 12px;
+      cursor: pointer;
+      background-color: rgb(7, 88, 180);
+      color: white;
+      border-color: rgb(7, 88, 180);
+      font: 16px bold white Lucida Sans
+    }
+
+    button :hover {
+      background-color: #34495e;
+    }
+
+    /* -------------------------------------
+        RESPONSIVE DESIGN
+        adapted from https://github.com/leemunroe/responsive-html-email-template/blob/master/email-inlined.html
+    ------------------------------------- */
+    @media only screen and (max-width: 620px) {
+      table[class=body] h1 {
+        font-size: 28px !important;
+        margin-bottom: 10px !important;
+      }
+
+      table[class=body] p,
+      table[class=body] hr,
+      table[class=body] br,
+      table[class=body] ul,
+      table[class=body] ol,
+      table[class=body] td,
+      table[class=body] span,
+      table[class=body] a {
+        font-size: 16px !important;
+      }
+
+      table[class=body] .wrapper,
+      table[class=body] .article {
+        padding: 10px !important;
+      }
+
+      table[class=body] .content {
+        padding: 0 !important;
+      }
+
+      table[class=body] .container {
+        padding: 0 !important;
+        width: 100% !important;
+      }
+
+      table[class=body] .main {
+        border-left-width: 0 !important;
+        border-radius: 0 !important;
+        border-right-width: 0 !important;
+      }
+
+      table[class=body] .btn table {
+        width: 100% !important;
+      }
+
+      table[class=body] .btn a {
+        width: 100% !important;
+      }
+
+      table[class=body] .img-responsive {
+        height: auto !important;
+        max-width: 100% !important;
+        width: auto !important;
+      }
+    }
+
+    @media all {
+      .ExternalClass {
+        width: 100%;
+      }
+
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+
+      .apple-link a {
+        color: inherit !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: none !important;
+        text-decoration: none !important;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <container class="body-drip"
+    style="vertical-align: top; display: block; Margin: 0 auto; max-width: 400px; padding: 10px; width: 400px;">
+    <row>
+      <p>Hi {{ firstName }}!</p>
+      <p class="text-center" style=" ">You requested a new password for Enscape account.
+        <br /> You can reset your password using the link bellow:</p>
+      <a href="http://lic.enscape3d.com/Account/Login"><button>RESET
+          PASSWORD
+        </button></a>
+      <p class="text-center">If you didn't make this request, you can safely
+        ignore this email.</p>
+      <p class="text-center">Best,</p>
+      <p>Your Enscape Team</p>
+    </row>
+
+    <row>
+      <hr style="border: 0.5px solid darkorange">
+      <a href="https://enscape3d.com/"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/enscape-logo.png"
+          alt="Ensacpe Logo" style="width:120px;height:60px;">
+      </a>
+
+      <p class="text-center" style="font-size: 11px"> Enscape Gmbh | Erbprinzenstraße 27 | 76133
+        Karlshure | Germany<br />
+        <b>E </b><a href=" #">support@enscape3d.com</a> | <b>P </b>+49 721 132 060 60 | </p>
+
+    </row>
+
+    <row>
+      <columns>
+        <a href="https://enscape3d.com/contact/">
+          <img style="width:40px;height:40px;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/www.png"
+            alt="Link">
+        </a>
+
+        <a href="https://www.youtube.com/enscape3d?utm_source=youtube&utm_medium=email&utm_campaign=startpage">
+          <img style="width:40px;height:40px;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/youtube.png"
+            alt="Youtube">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/enscapegmbh?utm_source=linkedin&utm_medium=email&utm_campaign=startpage">
+          <img style="width:40px;height:40px;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/linkedin.png"
+            alt="Linkedin">
+        </a>
+        <a href="https://www.facebook.com/Enscape3D?utm_source=facebook&utm_medium=email&utm_campaign=startpage">
+          <img style="width:40px;height:40px;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/facebook.png"
+            alt="Facebook">
+        </a>
+        <a href="https://enscape3d.com/contact">
+          <img style="width:170px;height:35px;color:darkorange;"
+            src="https://docs.google.com/drawings/d/e/2PACX-1vRHAvqkS9TYYOh-jouvz5CwTX3ucWjzCL204al8hhhtQaAalK4iV5iemqHbS9HleeSDYbn4IYEMGD0u/pub?w=150&h=25">
+        </a>
+        <p></p>
+      </columns>
+    </row>
+  </container>
+
+</body>
+
+</html>
