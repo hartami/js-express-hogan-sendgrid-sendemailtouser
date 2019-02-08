@@ -26,9 +26,7 @@ router.post("/form", function(req, res) {
   res.render("postsubmit", { firstName: initialusername, email: emailaddress });
 
   const sgMail = require("@sendgrid/mail");
-  sgMail.setApiKey(
-    "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"
-  );
+  sgMail.setApiKey("");
 
   const msg = {
     to: emailaddress,

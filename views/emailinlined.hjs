@@ -12,7 +12,8 @@
     }
 
     /* -------------------------------------
-        RESPONSIVE DESIGN
+        THIS RESPONSIVE DESIGN WAS ADAPTED FROM 
+        https://github.com/leemunroe/responsive-html-email-template
     ------------------------------------- */
     @media only screen and (max-width: 620px) {
       table[class=body] h1 {
@@ -126,7 +127,7 @@
                         Hi {{firstName}}</p>
                       <p
                         style="font-family: sans-serif; font-size: 14px; color:black; font-weight: normal; margin: 0; Margin-bottom: 15px">
-                        You requested a new password for Enscape account.
+                        You requested a new password for ABC account.
                         <br /> You can reset your password using the link bellow:</p>
                       <p>
                         <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary"
@@ -141,7 +142,7 @@
                                     <tr>
                                       <td
                                         style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color:rgb(7, 88, 180); border-radius: 5px; text-align: center; width: 100%">
-                                        <a href="http://lic.enscape3d.com/Account/Login"
+                                        <a href="http://github.com/"
                                           style="display: inline-block; color: #ffffff; background-color:rgb(7, 88, 180); border: solid 1p rgb(7, 88, 180); border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; width: 100%; padding: 12px 25px; text-transform: capitalize; border-color:rgb(7, 88, 180);">RESET
                                           PASSWORD</a> </td>
                                     </tr>
@@ -160,38 +161,31 @@
                         Best,</p>
                       <p
                         style="font-family: sans-serif; font-size: 14px; color:black; font-weight: normal; margin: 0; Margin-bottom: 15px;">
-                        Your Enscape Team</p>
+                        Your ABC Team</p>
 
-                      <hr style="border: 0.5px solid darkorange">
-                      <a href="https://enscape3d.com/"><img
-                          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/enscape-logo.png" alt="Ensacpe Logo"
+                      <hr style="border: 0.5px solid purple">
+
+                      <a href="https://github.com/"><img src="http://placehold.it/150x30/663399" alt="Company Logo"
                           style="width:120px;height:60px;">
                       </a>
-                      <p class="text-center" style="font-size: 11px; color:black"> Enscape Gmbh | Erbprinzenstraße 27 |
-                        76133
-                        Karlshure | Germany<br />
-                        <b>E </b><a href=" #">support@enscape3d.com</a> | <b>P </b>+49 721 132 060 60 | </p>
+                      <p class="text-center" style="font-size: 11px; color:black"> ABC Company | Meisenweg 27 |
+                        67665
+                        Kaiserslautern | Germany<br />
+                        <b>E </b><a href=" #">support@abc.com</a> | <b>P </b>+49 1792 822 944 | </p>
                       <div>
-                        <a href="https://enscape3d.com/contact"><img
-                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/www.png" alt="Ensacpe"
+                        <a href="https://github.com/"><img src="http://placehold.it/25/663399" alt="Social Media 1"
                             style="width:35px;height:35px;">
                         </a>
-                        <a
-                          href="https://www.youtube.com/enscape3d?utm_source=youtube&utm_medium=email&utm_campaign=startpage">
-                          <img style="width:35px;height:35px;"
-                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/youtube.png" alt="Youtube">
+                        <a href="https://www.youtube.com/">
+                          <img style="width:35px;height:35px;" src="http://placehold.it/25/663399" alt="Youtube">
                         </a>
-                        <a
-                          href="https://www.linkedin.com/company/enscapegmbh?utm_source=linkedin&utm_medium=email&utm_campaign=startpage">
-                          <img style="width:35px;height:35px;"
-                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/linkedin.png" alt="Linkedin">
+                        <a href="https://www.linkedin.com/">
+                          <img style="width:35px;height:35px;" src="http://placehold.it/25/663399" alt="Linkedin">
                         </a>
-                        <a
-                          href="https://www.facebook.com/Enscape3D?utm_source=facebook&utm_medium=email&utm_campaign=startpage">
-                          <img style="width:35px;height:35px;"
-                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/100563/facebook.png" alt="Facebook">
+                        <a href="https://www.facebook.com/">
+                          <img style="width:35px;height:35px;" src="http://placehold.it/25/663399" alt="Facebook">
                         </a>
-                        <a href="https://enscape3d.com/contact">
+                        <a href="https://github.com/">
                           <img style="width:170px;height:35px;color:darkorange;"
                             src="https://docs.google.com/drawings/d/e/2PACX-1vRHAvqkS9TYYOh-jouvz5CwTX3ucWjzCL204al8hhhtQaAalK4iV5iemqHbS9HleeSDYbn4IYEMGD0u/pub?w=150&h=25">
                         </a>
